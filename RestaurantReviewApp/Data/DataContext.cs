@@ -22,7 +22,7 @@ namespace RestaurantReviewApp.Data
 
         public DbSet<Review> Reviews { get; set; }
 
-        public DbSet<Reviewer> Reviewers { get; }
+        public DbSet<Reviewer> Reviewers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
